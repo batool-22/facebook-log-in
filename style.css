@@ -1,0 +1,208 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+}
+
+body{
+    background:#eeeeee;
+    width:100%;
+    background-size:cover;
+    height:100vh;
+    background-position: center;
+    background-attachment: fixed;
+    }
+
+.form  {
+    width:350px;
+    height: 340px;
+    position: absolute;
+    background: #fff;
+    top:160px;
+    left:730px;
+    border-radius: 10px;
+    padding:20px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 2px #9eae94;
+   }
+
+   .form input{
+    width:100%;
+    height:50px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-family:Arial ;
+    border-radius: 5px;
+    border-style: solid;
+    color:black;
+    
+   }
+   ::placeholder{
+    color:#c2c4c9;
+    font-family:'Montserrat', sans-serif;
+   }
+
+
+   .form input:focus{
+    outline: none;
+   }
+   
+ 
+   
+   .btnn{
+    width: 100%;
+    height: 50px;
+    background: #1877f2;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+    border-style: solid;
+
+   }
+   
+   .btnn:hover{
+    background: #9eae94;
+   }
+   
+   .btnn a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+   }
+   .form .link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    padding-top:4px;
+    text-align: center;
+    padding-top: 20px;
+    color:#5299f5;
+    border-bottom: 1px solid rgba(81, 81, 117, 0.24);
+    padding-bottom: 20px;
+   }
+   .form .link a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#5299f5;
+   }
+
+
+   .form .btnr{
+    width: 220px;
+    height: 50px;
+    background: #42b72a;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+    border-style: solid;
+    margin-top: 20px;
+   }
+   
+   .form .btnr a{
+    text-decoration: none;
+    color: #fff;
+    font-weight:bold;
+   }
+
+   .card{
+       transition: 0.3s;
+       width: 160px;
+       height: 190px;
+       border-radius: 5px;
+       position: absolute;
+       left:200px;
+       top:250px;
+       background-color: #fff;
+   }
+   .card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+   }
+
+   .card-body .card-text{
+    color:#4b4f56;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    font-family:Arial;
+
+   }
+   
+
+   img{
+       border-radius: 5px 5px 0 0 ;
+       max-width: 100%;
+       max-height: 100%;
+
+   }
+
+   .card-body{
+       padding: 2px 16px;
+   }
+
+   .card2{
+    
+    transition: 0.3s;
+    width: 160px;
+    height: 190px;
+    border-radius: 5px;
+    position: absolute;
+    left:400px;
+    top:250px;
+    background-color: #fff;
+}
+.card2:hover{
+ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body2 .card-text2{
+ color:#4692f4;
+ font-size: 18px;
+ text-align: center;
+ padding-top: 5px;
+ font-family: Arial;
+}
+
+img{
+    border-radius: 5px 5px 0 0 ;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.card-body2{
+    padding: 2px 16px;
+}
+
+.re{
+    left:200px;
+    top:100px;
+    position: absolute;
+}
+
+.re h1{
+    color:#1877f2;
+    font-size: 40px;
+    padding-bottom: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.re h2{
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color:#1c1e21;
+}
+
+.re p{
+    padding-bottom: 10px;
+    color:#606770;
+    font-family:Arial;
+}

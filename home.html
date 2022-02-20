@@ -1,0 +1,81 @@
+<html DOCtype>
+    <!DOCTYPE html>
+    <html lang ="en">
+        <head>
+    <title>Log in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <script>
+
+ function verifyPassword() {  
+  let pw = document.getElementById("pswd").value;
+  //check empty password field  
+  if(pw == "") {  
+     document.getElementById("message").innerHTML = "**Fill the password please!";  
+     return false;  
+  }  
+ //minimum password length validation  
+  if(pw.length < 8) {  
+     document.getElementById("message").innerHTML = "**Password length must be atleast 8 characters";  
+     return false;  
+  }  
+// check if the pass coreect 
+   if(pw != "batool12345") {  
+     document.getElementById("message").innerHTML = "**The password is batool12345";  
+     return false;  
+  } else{
+    alert("Password and username is correct");
+  }
+}  
+function verifyUsername() {  
+  let na = document.getElementById("usn").value;
+  //check empty password field  
+  if(na == "") {  
+     document.getElementById("message").innerHTML = "**Fill the username please!";  
+     return false;  
+  }  
+  // check if the username coreect 
+  if(na != "batool") {  
+     document.getElementById("message").innerHTML = "**The username is not corecct!";  
+     return false;  
+  } else{
+    return true;
+  }
+}
+    </script>
+
+    
+    <body>
+         <div class="form">
+            <input type="email" name="email" id="usn" placeholder=" Email or phone number ">
+            <input type="password" id="pswd" value="" name="" placeholder=" Password">
+            <span id = "message" style="color:red"></span> <br><br> 
+            <button class="btnn" type="submit" value="submit" onclick="return verifyPassword(),verifyUsername() " ><a href="">Log in</a></button>
+        
+
+            <p class="link"> <a href="#">Forgotten Password?</a> </p>
+            <button class="btnr"><a href="#">Create New Account</a></button>
+            
+         </div>
+
+
+            <div class="re">
+            <h1>facebook</h1>
+            <h2>Recent login</h2>
+            <p>click your picture or add an account.</p>
+        </div>
+            <div class="card">
+                <img src="img/batoo2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-text">Batool</h4>
+                </div>
+            </div>
+            
+            <div class="card2">
+                <img src="img/bb7.jpeg" class="card-img-top" alt="...">
+                <div class="card-body2">
+                  <h4 class="card-text2">Add Account</h4>
+                </div>
+            </div>
+    </body>
+    </html>
